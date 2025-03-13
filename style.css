@@ -1,0 +1,378 @@
+body{
+    overflow-x: hidden;
+    background-color: #fdfbf9;
+}
+
+.uk{
+    background-color: #faf6ef;
+}
+
+.kd{
+    font-family: Circular, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: normal;
+}
+
+.uk a{
+    color: #10263b;
+}
+
+.uk:hover{
+    border: 1px solid;
+}
+
+.dev{
+    background-color: #10263b;
+}
+.by{
+    font-family: Circular, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: normal;
+}
+
+.dev a{
+    color: white;
+}
+
+.dev:hover{
+    background-color: #faf6ef;
+    border: 1px solid #10263b;
+    color: #10263b;
+}
+.dev:hover a{
+   
+    color: #10263b;
+}
+.lol{
+    margin-left: 180px;
+}
+
+.pad{
+    padding-bottom: 15px;
+}
+
+.net {
+    background: url('img/uni.jpg') no-repeat center center;
+    background-size: cover;
+    height: 68vh;
+    color: white;
+    display: flex;
+    justify-content: start; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative;
+    min-height: 500px; /* Ensures the image has a minimum height */
+}
+
+.net::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 7), rgba(0, 0, 0, 0) 70%);
+    z-index: 1; /* Ensures the gradient is above the background but below the text */
+}
+
+.net > div {
+    position: relative; /* Make sure the text is above the gradient */
+    z-index: 2; /* Ensures the text is above the gradient */
+}
+
+.hm{
+    font-size: 65px;
+    font-family:Lora, "Georgia Bold";
+    line-height: 53px;
+    color: #ffffff
+    
+}
+
+.mh{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Circular, Arial, sans-serif;
+    line-height: 24px;
+}
+
+.po{
+    align-items: center;
+    background-color: #ffffff;
+    color: #10263b;
+    width: 180px;
+    height: 45px;
+    border-radius: 68px;
+    text-decoration: none;
+    font-family: Circular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.po:hover{
+    align-items: center;
+    background-color: #10263b;
+    border: 2px solid;
+    color: #ffffff;
+    width: 180px;
+    height: 45px;
+    border-radius: 68px;
+    text-decoration: none;
+    font-family: Circular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.la{
+    /* opacity: 0.4; */
+    position: absolute;
+    margin-left: 155px;
+}
+.la:hover{
+    opacity: 1;
+    position: absolute;
+}
+
+.ll{
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 6%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    position: relative; /* Make sure the text is above the gradient */
+    z-index: 2; /* Ensures the text is above the gradient */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+
+}
+
+.deg{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid;
+    width: 300px;
+}
+.deg:hover{
+    border: 2px solid;
+}
+.de{
+    width: 300px;
+}
+
+.pa{
+    align-items: center;
+    background-color: #10263b;
+    color: #ffffff;
+    width: 180px;
+    height: 45px;
+    border-radius: 68px;
+    text-decoration: none;
+    font-family: Circular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.pa:hover{
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid;
+    color: #10263b;
+    width: 180px;
+    height: 45px;
+    border-radius: 68px;
+    text-decoration: none;
+    font-family: Circular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.ta{
+    /* opacity: 0.4; */
+    position: absolute;
+    margin-left: 155px;
+}
+.ta:hover{
+    opacity: 1;
+    position: absolute;
+}
+
+.ki{
+    text-decoration: underline;
+    color: #000;
+}
+.ki:hover{
+    text-decoration: none;
+    color: #91bfff;
+}
+
+.ko{
+    text-decoration: none;
+    color: #000;
+}
+
+.tic{
+    background-color: #10263b;
+    color: #ffffff;
+}
+
+.tac{
+    background-color: #10263b;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.lic{
+    gap: 20px;
+}
+.sha{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.di{
+    text-decoration: underline;
+    color: #ffffff;
+    font-family: Circular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+.di:hover{
+    text-decoration: none;
+}
+
+.hun{
+    font-family: lora,"Georgia Bold";
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: normal;
+}
+.han{
+    font-family: Circular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+.fel{
+    background-color: #deb406;
+}
+.sak{
+    font-family: Lora, "Georgia Bold";
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: normal;
+    color: #10263b;
+}
+.sok{
+    font-family: Circular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #10263b;
+}
+.sok:hover{
+    text-decoration: none;
+}
+
+.aii {
+    background-image: url(img/chem.jpg); /* Ensure the background image is set */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Ensure it takes the full width of its parent */
+    height: 100%; /* Adjust height as needed */
+    min-height: 200px; /* Set a maximum height */
+    display: flex; /* Use flexbox to center text */
+    align-items: end; /* Center text vertically */
+    justify-content: start; /* Center text horizontally */
+    text-align: center; /* Center align text */
+    position: relative; /* Position relative for any absolute positioning inside */
+}
+.lii{
+    background-image: url(img/ban.png);
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Ensure it takes the full width of its parent */
+    height: 100%; /* Adjust height as needed */
+    min-height: 200px; /* Set a maximum height */
+    display: flex; /* Use flexbox to center text */
+    align-items: end; /* Center text vertically */
+    justify-content: start; /* Center text horizontally */
+    text-align: center; /* Center align text */
+    position: relative; /* Position relative for any absolute positioning inside */
+}
+.dii{
+    background-image: url(img/ref.jpg);
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Ensure it takes the full width of its parent */
+    height: 100%; /* Adjust height as needed */
+    min-height: 200px; /* Set a maximum height */
+    display: flex; /* Use flexbox to center text */
+    align-items: end; /* Center text vertically */
+    justify-content: start; /* Center text horizontally */
+    text-align: center; /* Center align text */
+    position: relative; /* Position relative for any absolute positioning inside */
+}
+
+.dud{
+    font-family: Lora, "Georgia Bold";
+    font-size: 34px;
+    line-height: 40.8px;
+    letter-spacing: normal;
+    color: #10263b;
+}
+
+.ho {
+    display: flex; /* Use flexbox for the carousel items */
+    align-items: center; /* Center align items vertically */
+}
+.ho:img {
+    max-width: 50%; /* Make the image take up to 50% of the width */
+    height: auto; /* Maintain aspect ratio */
+}
+.ent {
+    padding: 20px; /* Add padding to the text content */
+}
+
+.bi{
+    text-decoration: underline;
+    color: #000000;
+    font-family: Circular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+.bi:hover{
+    text-decoration: none;
+}
+
+.qi{
+    color: #ffffff;
+    font-family: Circular, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-decoration: none;
+}
+.qi:hover{
+    text-decoration: underline;
+}
+
+.kj:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+.kj {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.mk{
+    height: 55vh;
+    width: 1px;
+    color: white;
+    margin-top: 5px;
+    border: 1px solid;
+    align-self: center;
+}

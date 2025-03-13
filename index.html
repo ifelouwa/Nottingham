@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg pb-4 pt-0 m-0" style="background-color: #fdfbf9;">
+        <div class=" container-fluid p-0 m-0">
+            <a class="navbar-brand p-0 m-0" href="#">
+                <img src="img/not.png" alt="logo" width="250" height="100">
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="nav position-absolute top-0 end-0">
+                    <li class="dev nav-item">
+                        <a class="by nav-link active" aria-current="page" href="#">Current students</a>
+                    </li>
+                    <li class="dev nav-item">
+                        <a class="by nav-link" href="#">Staff</a>
+                    </li>
+                    <li class="dev nav-item">
+                        <a class="by nav-link" href="#">Alumni</a>
+                    </li>
+                    <li class="uk nav-item dropstart">
+                        <a class="kd nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">UK</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">China</a></li>
+                            <li><a class="dropdown-item" href="#">Malaysia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="lol navbar-nav">
+                    <li class="nav-item dropdown pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Study
+                        </a>
+                        <ul class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid p-0">
+                                <div class="d-flex">
+                                    <div class="d-block">
+                                        <div class="d-flex justify-content-between pt-5">
+                                            <li><a class="nt dropdown-item" href="#">Staff look-up</a></li>
+                                            <li><a class="nt dropdown-item" href="#">Browser study area</a></li>
+                                        </div>
+                                        <div>
+                                            <li><hr class="dropdown-divider" style="height: 18px"></li>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">STUDT OPTIONS</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Undergraduate</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Postgraduate</a></li>
+                                                <li><a class="nt dropdown-item" href="#">International Students</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Degree Apprenticeships</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Fees and funding</a></li>
+                                             </div>
+                                             <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">OPEN DAYS</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Upcoming events</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Virtual tour</a></li>
+                                             </div>
+                                             <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">Campus life</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Accommodation</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Student Ubion</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Sport</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Student Services</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Living in Nottingham</a></li>
+                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="dia p-5 m-0">
+                                        <li><a class="nf dropdown-item" href="#">Chat to students</a></li>
+                                        <li><hr class="dropdown-divider" style="height: 18px"></li>
+                                        <li><a class="nf dropdown-item pt-4" href="#">Graduate recruitment</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Cleaning</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Facilities</a></li>
+                                        <li><a class="nt dropdown-item" href="#">libraries</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Help and support</a></li>
+                                     </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid p-0">
+                                <div class="d-flex">
+                                    <div class="d-block">
+                                        <div class="d-flex justify-content-between pt-5">
+                                            <li><a class="nt dropdown-item" href="#">Staff look-up</a></li>
+                                            <li><a class="nt dropdown-item" href="#">Browser study area</a></li>
+                                        </div>
+                                        <div>
+                                            <li><hr class="dropdown-divider" style="height: 18px"></li>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">STUDT OPTIONS</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Undergraduate</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Postgraduate</a></li>
+                                                <li><a class="nt dropdown-item" href="#">International Students</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Degree Apprenticeships</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Fees and funding</a></li>
+                                             </div>
+                                             <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">OPEN DAYS</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Upcoming events</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Virtual tour</a></li>
+                                             </div>
+                                             <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">Campus life</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Accommodation</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Student Ubion</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Sport</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Student Services</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Living in Nottingham</a></li>
+                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="dia p-5 m-0">
+                                        <li><a class="nf dropdown-item" href="#">Chat to students</a></li>
+                                        <li><hr class="dropdown-divider" style="height: 18px"></li>
+                                        <li><a class="nf dropdown-item pt-4" href="#">Graduate recruitment</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Cleaning</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Facilities</a></li>
+                                        <li><a class="nt dropdown-item" href="#">libraries</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Help and support</a></li>
+                                     </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Research
+                        </a>
+                        <ul class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                            <div class="container-fluid p-0">
+                                <div class="d-flex">
+                                    <div class="d-block">
+                                        <div class="d-flex justify-content-between pt-5">
+                                            <li><a class="nt dropdown-item" href="#">Staff look-up</a></li>
+                                            <li><a class="nt dropdown-item" href="#">Browser study area</a></li>
+                                        </div>
+                                        <div>
+                                            <li><hr class="dropdown-divider" style="height: 18px"></li>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">STUDT OPTIONS</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Undergraduate</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Postgraduate</a></li>
+                                                <li><a class="nt dropdown-item" href="#">International Students</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Degree Apprenticeships</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Fees and funding</a></li>
+                                             </div>
+                                             <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">OPEN DAYS</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Upcoming events</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Virtual tour</a></li>
+                                             </div>
+                                             <div class="p-4">
+                                                <li><a class="nf dropdown-item" href="#">Campus life</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Accommodation</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Student Ubion</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Sport</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Student Services</a></li>
+                                                <li><a class="nt dropdown-item" href="#">Living in Nottingham</a></li>
+                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="dia p-5 m-0">
+                                        <li><a class="nf dropdown-item" href="#">Chat to students</a></li>
+                                        <li><hr class="dropdown-divider" style="height: 18px"></li>
+                                        <li><a class="nf dropdown-item pt-4" href="#">Graduate recruitment</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Cleaning</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Facilities</a></li>
+                                        <li><a class="nt dropdown-item" href="#">libraries</a></li>
+                                        <li><a class="nt dropdown-item" href="#">Help and support</a></li>
+                                     </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Business
+                        </a>
+                        <ul class="dropdown-menu p-5" aria-labelledby="navbarDropdown">
+                            <li><a class="nf dropdown-item" href="#">Working with business</a></li>
+                            <li><hr class="dropdown-divider" style="height: 18px"></li>
+                            <li><a class="nt dropdown-item" href="#">Knowledge and experties</a></li>
+                            <li><a class="nt dropdown-item" href="#">Develop your workforce</a></li>
+                            <li><a class="nt dropdown-item" href="#">Recruit our students</a></li>
+                            <li><a class="nt dropdown-item" href="#">Funding opportunities</a></li>
+                            <li><a class="nt dropdown-item" href="#">Access facilities and equipment</a></li>
+                            <li><a class="nt dropdown-item" href="#">Case studies</a></li>
+                            <li><a class="nm dropdown-item p2" href="#">Collaborate with us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          News and events
+                        </a>
+                        <ul class="dropdown-menu p-5" aria-labelledby="navbarDropdown">
+                            <li><a class="nf dropdown-item" href="#">Explore news and events</a></li>
+                            <li><hr class="dropdown-divider" style="height: 18px"></li>
+                            <li><a class="nt dropdown-item" href="#">News</a></li>
+                            <li><a class="nt dropdown-item" href="#">Blogs</a></li>
+                            <li><a class="nt dropdown-item" href="#">Upcoming events</a></li>
+                            <li><a class="nt dropdown-item" href="#">Contact Media Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contact
+                        </a>
+                        <ul class="dropdown-menu p-5" aria-labelledby="navbarDropdown">
+                            <li><a class="nf dropdown-item" href="#">Get in touch</a></li>
+                            <li><hr class="dropdown-divider" style="height: 18px"></li>
+                            <li><a class="nt dropdown-item" href="#">Study with us enquiries</a></li>
+                            <li><a class="nt dropdown-item" href="#">General enquiries</a></li>
+                            <li><a class="nt dropdown-item" href="#">School and Department</a></li>
+                            <li><a class="nt dropdown-item" href="#">Staff look-up</a></li>
+                            <li><a class="nt dropdown-item" href="#">Visit us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="net">
+        <div class="ps-5">
+            <div>
+                <h1 class="hm ps-5">
+                    Join the <br>
+                    top UK university <br>
+                    for graduate careers
+               </h1>
+            </div>
+            <div>
+                <p class="mh ps-5 pt-3">
+                    HESA Graduate Outcomes, 2024
+                </p>
+            </div>
+            <div class="ps-5">
+                <a href="#" class="po p-2 d-flex justify-content-between">
+                    <div>Find out more</div>
+                    <div class="la"><i class="fa-solid fa-chevron-right"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ll container mb-5">
+            <div class="p-4">
+                <h1 style="font-family: Lora, Georgia Bold;">Find your dream course</h1>
+                
+                <!-- Search and Dropdown Section -->
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <input class="me-0 mt-0 mb-3 mb-sm-0" type="search" placeholder="Search" aria-label="Search" style="width: 100%; max-width: 25%; border-top: 0px; border-left: 0px; border-right: 0px;">
+                    
+                    <div class="deg d-flex justify-content-between mb-3 mb-sm-0">
+                        <div class="dropdown">
+                            <a class="ko p-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select Study Level
+                            </a>
+                            <ul class="de dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <a href="#" class="pa p-2 d-flex justify-content-between">
+                            <div>Let's Go</div>
+                            <div class="ta"><i class="fa-solid fa-chevron-right"></i></div>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Popular Links Section -->
+                <h3 style="font-family: Circular, Arial, sans-serif; padding-top: 2%;">Popular links</h3>
+                
+                <div class="d-flex flex-column flex-sm-row justify-content-between">
+                    <div class="d-none d-sm-block">
+                        <a href="#" class="ki">Study with us</a>
+                        <a href="#" class="ki">Chat to students and staff</a>
+                        <a href="#" class="ki">Open days</a>
+                        <a href="#" class="ki">International students</a>
+                    </div>
+                    <div class="dropdown d-sm-none">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownPopularLinks" data-bs-toggle="dropdown" aria-expanded="false">
+                            Popular Links
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownPopularLinks">
+                            <li><a class="dropdown-item" href="#">Study with us</a></li>
+                            <li><a class="dropdown-item" href="#">Chat to students and staff</a></li>
+                            <li><a class="dropdown-item" href="#">Open days</a></li>
+                            <li><a class="dropdown-item" href="#">International students</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="container-fluid pt-5">
+       <div class="container">
+            <div class="lic row justify-content-between">
+                <div class="tac p-5 col-lg col-md-12 mb-4 d-flex flex-column align-items-start me-2">
+                    <div class="ps-4 pb-4">
+                        <h1 class="hun">Hundreds of work placements</h1>
+                    </div>
+                    <div class="ps-4">
+                        <p class="han">Shape your future with an undergraduate degree</p>
+                    </div>
+                    <div class="ps-4">
+                        <a href="#" class="di">Apply now</a>
+                    </div>
+                </div>
+            
+                <div class="tac p-5 col-lg col-md-12 mb-4 d-flex flex-column align-items-start">
+                    <div class="ps-4 pb-4">
+                        <h1 class="hun">Postgraduate study</h1>
+                    </div>
+                    <div class="ps-4">
+                        <p class="han">Supercharge your career with a master's degree</p>
+                    </div>
+                    <div class="ps-4">
+                        <a href="#" class="di">Discover more</a>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <div class="container-fluid pt-5 mb-4">
+        <div class="container mb-4">
+            <div class="lic row justify-content-between">
+                <div class="fel p-5 col-lg col-md-12 mb-4 d-flex flex-column align-items-center">
+                    <div>
+                        <h1 class="sak">3rd</h1>
+                    </div>
+                    <div>
+                        <p class="sok">in the UK for top employers</p>
+                    </div>
+                    <div>
+                        <a href="#" class="sok">High Fliers Graduate Report 2024</a>
+                    </div>
+                </div>
+                <div class="fel p-5 col-lg col-md-12 mb-4 d-flex flex-column align-items-center">
+                    <div>
+                        <h1 class="sak">7th</h1>
+                    </div>
+                    <div>
+                        <p class="sok">in the UK for research power</p>
+                    </div>
+                    <div>
+                        <a href="#" class="sok">Research Excellence Framework 2021</a>
+                    </div>
+                </div>
+                <div class="fel p-5 col-lg col-md-12 mb-4 d-flex flex-column align-items-center">
+                    <div>
+                        <h1 class="sak">Top 20</h1>
+                    </div>
+                    <div>
+                        <p class="sok">university in the UK</p>
+                    </div>
+                    <div>
+                        <a href="#" class="sok">QS World University Rankings 2025</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-5" style="background-color: #faf6ef;">
+        <div class="container pt-3 pb-3">
+            <div class="pb-5">
+                <h2 class="dud">Research</h2>
+            </div>
+            <div class="row m-0">
+                <div class="tic p-5 col-lg col-md-12 d-flex flex-column align-items-start">
+                    <h1>From dedication to discovery,<br>to changing lives together.</h1>
+                    <p>From our world to yours. We are UoN research.</p>
+                    <a href="#" class="po p-2 d-flex justify-content-between">
+                        <div>Find out more</div>
+                        <div class="la"><i class="fa-solid fa-chevron-right"></i></div>
+                    </a>
+                </div>
+                <div class="p-0 col-lg col-md-12 d-flex flex-column">
+                    <img src="img/map.jpg" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                </div>
+            </div>
+            <div class="lic row justify-content-between pt-5">
+                <div class="aii col-lg col-md-12">
+                    <a href="#" class="mb-3 ms-3 po p-2 d-flex justify-content-between">
+                        <div>Find out more</div>
+                        <div class="la"><i class="fa-solid fa-chevron-right"></i></div>
+                    </a>
+                </div>
+                <div class="lii col-lg col-md-12">
+                    <a href="#" class="mb-3 ms-3 po p-2 d-flex justify-content-between">
+                        <div>Find out more</div>
+                        <div class="la"><i class="fa-solid fa-chevron-right"></i></div>
+                    </a>
+                </div>
+                <div class="dii col-lg col-md-12">
+                    <a href="#" class="mb-3 ms-3 po p-2 d-flex justify-content-between">
+                        <div>Find out more</div>
+                        <div class="la"><i class="fa-solid fa-chevron-right"></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-5">
+        <div class="container pb-5">
+
+            <div class="d-flex justify-content-between">
+                <div class="pb-5">
+                    <h2 class="dud">University news</h2>
+                </div>
+                
+                <div class="ps-4 ">
+                    <a href="#" class="bi">See all events</a>
+                </div>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="lic row justify-content-between">
+                            <div class="lic col-lg col-md-12 d-flex flex-row">
+                                <div class="row m-0">
+                                    <div class="p-0 col-lg col-md-12 d-flex flex-column">
+                                        <img src="img/cov.jpg" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                                    </div>
+                                    <div class="col-lg col-md-12 d-flex flex-column align-items-start p-3" style="background-color: white; width: 100%;">
+                                        <div class="ps-2">
+                                            <h1>05</h1>
+                                        </div>
+                                        <div class="ps-2">
+                                            <p>December</p>
+                                        </div>
+                                        <div class="ps-2">
+                                            <h3>Festival of Lessons and Carols 2024</h3>
+                                        </div>
+                                        <div class="ps-2">
+                                            <a href="#" class="bi">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="row m-0">
+                                    <div class="p-0 col-lg col-md-12 d-flex flex-column">
+                                        <img src="img/sky.jpg" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                                    </div>
+                                    <div class="col-lg col-md-6 d-flex flex-column align-items-start p-3" style="background-color: white; width: 100%;">
+                                        <div class="ps-2">
+                                            <h1>05</h1>
+                                        </div>
+                                        <div class="ps-2">
+                                            <p>December</p>
+                                        </div>
+                                        <div class="ps-2">
+                                            <h3>Festival of Lessons and Carols 2024</h3>
+                                        </div>
+                                        <div class="ps-2">
+                                            <a href="#" class="bi">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="lic row justify-content-between">
+                            <div class="lic col-lg col-md-12 d-flex flex-row">
+                                <div class="row m-0">
+                                    <div class="p-0 col-lg col-md-12 d-flex flex-column">
+                                        <img src="img/sim.jpg" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                                    </div>
+                                    <div class="col-lg col-md-12 d-flex flex-column align-items-start p-3" style="background-color: white; width: 100%;">
+                                        <div class="ps-2">
+                                            <h1>05</h1>
+                                        </div>
+                                        <div class="ps-2">
+                                            <p>December</p>
+                                        </div>
+                                        <div class="ps-2">
+                                            <h3>Festival of Lessons and Carols 2024</h3>
+                                        </div>
+                                        <div class="ps-2">
+                                            <a href="#" class="bi">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="row m-0">
+                                    <div class="p-0 col-lg col-md-12 d-flex flex-column">
+                                        <img src="img/gra.jpg" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                                    </div>
+                                    <div class="col-lg col-md-6 d-flex flex-column align-items-start p-3" style="background-color: white; width: 100%;">
+                                        <div class="ps-2">
+                                            <h1>05</h1>
+                                        </div>
+                                        <div class="ps-2">
+                                            <p>December</p>
+                                        </div>
+                                        <div class="ps-2">
+                                            <h3>Festival of Lessons and Carols 2024</h3>
+                                        </div>
+                                        <div class="ps-2">
+                                            <a href="#" class="bi">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5" style="background-color: #faf6ef;">
+        <div class="container pb-5 pt-5">
+            <div class="d-flex justify-content-between">
+                <div class="pb-5">
+                    <h2 class="dud">University news</h2>
+                </div>
+                <div class="ps-4">
+                    <a href="#" class="bi">See all events</a>
+                </div>
+            </div>
+    
+            <div class="row justify-content-between">
+                <div class="lic col-lg col-md-12 d-flex flex-row">
+                    <div class="sha row m-0">
+                        <div class="p-0 col-lg col-md-12 d-flex flex-column">
+                            <img src="img/cro.jpg" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                        </div>
+                        <div class="col-lg col-md-12 d-flex flex-column align-items-start p-3" style="background-color: white; width: 100%;">
+                            <div class="ps-2">
+                                <h1>05</h1>
+                            </div>
+                            <div class="ps-2">
+                                <p>December</p>
+                            </div>
+                            <div class="ps-2">
+                                <h3>Festival of Lessons and Carols 2024</h3>
+                            </div>
+                            <div class="ps-2">
+                                <a href="#" class="bi">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="sha row m-0">
+                        <div class="p-0 col-lg col-md-12 d-flex flex-column">
+                            <img src="img/cha.jpg" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                        </div>
+                        <div class="col-lg col-md-6 d-flex flex-column align-items-start p-3" style="background-color: white; width: 100%;">
+                            <div class="ps-2">
+                                <h1>05</h1>
+                            </div>
+                            <div class="ps-2">
+                                <p>December</p>
+                            </div>
+                            <div class="ps-2">
+                                <h3>Festival of Lessons and Carols 2024</h3>
+                            </div>
+                            <div class="ps-2">
+                                <a href="#" class="bi">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 mb-4">
+        <div class="container mb-4">
+            <div class="lic row justify-content-between">
+                <div class="col-lg col-md-12 mb-4 d-flex flex-column align-items-center">
+                    <img src="img/rus.png" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;"> 
+                </div>
+                <div class="col-lg col-md-12 mb-4 d-flex flex-column align-items-center">
+                    <img src="img/u21.png" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                </div>
+                <div class="col-lg col-md-12 mb-4 d-flex flex-column align-items-center">
+                    <img src="img/ath.png" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;"> 
+                </div>
+                <div class="col-lg col-md-12 mb-4 d-flex flex-column align-items-center">
+                    <img src="img/rac.jpg" alt="mobile phone" class="img-fluid" style="width: 100%; max-width: 700px; height: 100%; max-height: 900px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tic container-fluid pt-5">
+        <div class="row p-5">
+            <div class="col-lg-3 col-md-12 mb-4 d-flex flex-column">
+                <div class="d-flex pe-5">
+                    <div class="col-lg col-md-12 d-flex flex-column align-items-start">
+                        <div>
+                            <h3 class="">Get in Touch</h3>
+                        </div>
+                        <div>
+                            <p>+44(0) 115 951 5151</p>
+                        </div>
+                        <div>
+                            <p>Lines are open:</p>
+                            <p>Monday-Friday 9:00am-4:30pm</p>
+                        </div>
+                        <div>
+                            <p>University of Nottingham</p>
+                            <p>University Park</p>
+                            <p>Nottingham,NG7 2RD</p>
+                            <p>United Kingdom</p>
+                        </div>
+                    </div>
+
+                    <div class="mk">
+                    </div>
+                </div>
+
+                <div class="pt-3 align-items-start">
+                    <div class="footer-social">
+                        <a href="#" class="kj"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="kj"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="kj"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="kj"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="kj"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9 col-md-12 mb-4 d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                    <div class="col-lg col-md-12 d-flex flex-column align-items-start">
+                        <div>
+                            <h3 class="">Quick links</h3>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Applicant help and support</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Applicant help and support</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Academic schools and departments</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Professional services</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Sport</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Cripps Health Centre</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Lakeside Arts</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Conferences</a>
+                        </div>                  
+                    </div>
+                    <div class="col-lg col-md-12 d-flex flex-column align-items-start">
+                        <div>
+                            <h3 class="">Students</h3>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Student services</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Health and wellbeing</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Digital services</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Moodle</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Library</a>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-12 d-flex flex-column align-items-start">
+                        <div>
+                            <h3 class="">Staff</h3>
+                        </div>
+                        <div>
+                            <a href="#" class="qi"><p>Working here</p></a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi"><p>Wellbeing</p></a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi"><p>Digital services</p></a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi"><p>Vacancies</p></a>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-12 d-flex flex-column align-items-start">
+                        <div>
+                            <h3 class="">Alumni</h3>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Community</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Connect</a>
+                        </div>
+                        <div>
+                            <a href="#" class="qi">Donate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-5 mt-5 align-items-start">
+                    <div>
+                        <p>Copyright © 2010 - 2024 University of Nottingham</p>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+
+</body>
+</html>
